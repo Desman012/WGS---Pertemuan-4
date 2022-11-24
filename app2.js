@@ -4,9 +4,9 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-rl.question('What is your name?', (name) => {
-    rl.question('What is your email?', (email) => {
-        rl.question('What is your number phone?', (tlp) => {
+rl.question('What is your name? ', (name) => {
+    rl.question('What is your email? ', (email) => {
+        rl.question('What is your number phone? ', (tlp) => {
             console.log(`Your name : ${name}`);
             console.log(`Your email : ${email}`);
             console.log(`Your phone : ${tlp}`);
